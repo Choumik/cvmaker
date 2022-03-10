@@ -1,0 +1,38 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .button {
+    background-color: #ddd;
+    font-size:30px;
+    position: absolute;
+    top: 76%;
+    left: 41%;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button:hover{
+      background-color: rgb(0, 0, 0);
+      color:white;
+
+  }
